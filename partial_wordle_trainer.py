@@ -1,5 +1,5 @@
 def count_sort_letters(array, column):
-    """ Auxiliary subroutine for performing count sort based upon column of interest
+    """ Auxiliary subroutine for performing count sort based upon column of interest.
     :input parameters: array; array of equal length a-z strings.  column;  integer digit column position of interest.
     :return:  array sorted lexicographically according to the digit column position of interest
     :worst-case time complexity: O(NM)
@@ -34,7 +34,7 @@ def count_sort_letters(array, column):
 
 
 def radix_sort_letters(array):
-    """ Radix sort string implementation lexicographically orders strings considering each positional digit character
+    """ Radix sort string implementation lexicographically orders strings considering each positional digit character.
     :input parameters: array; array of equal length a-z strings
     :return: array; sorted lexicographically
     :worst-case time complexity: O(NM)
@@ -50,7 +50,7 @@ def radix_sort_letters(array):
 
 
 def trainer(wordlist, word, marker):
-    """
+    """  A partial wordle trainer program that identifies a possible word match from a given word list.
     :input parameters: wordlist; array of equal length a-z strings.  word; string of equal length a-z.
     marker; array containing elements in the range {0,1} of equal length to word and wordlist elements
     :return: array of possible correct strings that lie within the wordlist

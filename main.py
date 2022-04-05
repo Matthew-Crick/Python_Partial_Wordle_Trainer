@@ -3,6 +3,7 @@ import partial_wordle_trainer
 
 
 class MyTestCase(unittest.TestCase):
+    """  unit test cases """
 
     def test_one(self):
         #  example 01
@@ -70,4 +71,5 @@ class MyTestCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    """ main caller """
     unittest.main()
